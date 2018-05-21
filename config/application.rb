@@ -16,5 +16,7 @@ module Depot
     # -- all .rb files in that directory are automatically loaded.
 
     config.action_mailer.delivery_method = :sendmail
+
+    config.middleware.use I18n::JS::Middleware
   end
 end
