@@ -27,5 +27,5 @@ production:
   database: depot_production
   pool: 5
   username: deploy
-  password: <%= ENV['DB_PASSWORD'] %>
+  password: password
   host: localhost
